@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.AddAuthorController">
+   <children>
+      <Label layoutX="196.0" layoutY="24.0" text="Add New Author">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTF" layoutX="196.0" layoutY="85.0" prefHeight="27.0" prefWidth="277.0" />
+      <TextField fx:id="addressTF" layoutX="196.0" layoutY="126.0" prefHeight="75.0" prefWidth="277.0" />
+      <TextField fx:id="emailAddressTF" layoutX="196.0" layoutY="216.0" prefHeight="27.0" prefWidth="277.0" />
+      <ComboBox fx:id="publisherUnitBox" layoutX="196.0" layoutY="257.0" prefHeight="27.0" prefWidth="277.0" />
+      <Button fx:id="cancelBtn" layoutX="404.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#cancel" text="Cancel" />
+      <Button fx:id="saveBtn" layoutX="492.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#save" text="Save" />
+      <Label layoutX="147.0" layoutY="90.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="130.0" layoutY="126.0" prefHeight="19.0" prefWidth="57.0" text="Address">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="95.0" layoutY="220.0" text="Email Address">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="96.0" layoutY="261.0" text="Publisher Unit">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

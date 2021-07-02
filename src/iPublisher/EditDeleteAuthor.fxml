@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="publishingUnit" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.EditDeleteAuthorController">
+   <children>
+      <Label layoutX="153.0" layoutY="14.0" text="Edit/Delete New Author">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTF" layoutX="195.0" layoutY="117.0" prefHeight="27.0" prefWidth="277.0" />
+      <TextField fx:id="addressTF" layoutX="195.0" layoutY="158.0" prefHeight="75.0" prefWidth="277.0" />
+      <TextField fx:id="emailAddressTF" layoutX="195.0" layoutY="248.0" prefHeight="27.0" prefWidth="277.0" />
+      <ComboBox layoutX="86.0" layoutY="-76.0" prefHeight="27.0" prefWidth="277.0" />
+      <Button fx:id="exitBtn" layoutX="356.0" layoutY="347.0" mnemonicParsing="false" onAction="#cancel" prefHeight="27.0" prefWidth="73.0" text="Exit" />
+      <Button fx:id="clearBtn" layoutX="48.0" layoutY="347.0" mnemonicParsing="false" onAction="#clear" prefHeight="27.0" prefWidth="60.0" text="Clear" />
+      <Label layoutX="146.0" layoutY="122.0" text="Name">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="129.0" layoutY="158.0" prefHeight="19.0" prefWidth="57.0" text="Address">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="94.0" layoutY="252.0" text="Email Address">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="59.0" layoutY="76.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="110.0" layoutY="73.0" text="Find Author">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteBtn" layoutX="445.0" layoutY="347.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+      <Button fx:id="updateBtn" layoutX="515.0" layoutY="347.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <ComboBox fx:id="authorBox" layoutX="195.0" layoutY="69.0" onAction="#fillFields" prefHeight="27.0" prefWidth="277.0" />
+      <Label layoutX="98.0" layoutY="292.0" text="Publishing Unit" />
+      <ComboBox fx:id="publishingUnitBox" layoutX="195.0" layoutY="287.0" prefHeight="27.0" prefWidth="277.0" />
+   </children>
+</AnchorPane>

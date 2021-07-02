@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.EditDeleteTitleController">
+   <children>
+      <Label layoutX="200.0" layoutY="23.0" text="Edit/Delete Title">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="112.0" layoutY="120.0" text="Name" />
+      <Label layoutX="114.0" layoutY="160.0" text="ISBN" />
+      <Label layoutX="86.0" layoutY="200.0" text="Edition No" />
+      <Label layoutX="56.0" layoutY="240.0" text="Publication Date" />
+      <Label layoutX="66.0" layoutY="282.0" text="Publiation QTY" />
+      <Label layoutX="101.0" layoutY="77.0" text="Find Title" />
+      <TextField fx:id="nameTF" layoutX="172.0" layoutY="115.0" prefHeight="27.0" prefWidth="278.0" />
+      <TextField fx:id="ISBNTF" layoutX="172.0" layoutY="155.0" prefHeight="27.0" prefWidth="278.0" />
+      <TextField fx:id="editionNoTF" layoutX="172.0" layoutY="195.0" />
+      <TextField fx:id="publicationDateTF" layoutX="172.0" layoutY="235.0" />
+      <TextField fx:id="publicationQTYTF" layoutX="172.0" layoutY="277.0" />
+      <Button fx:id="clearBtn" layoutX="44.0" layoutY="359.0" mnemonicParsing="false" onAction="#clear" prefHeight="27.0" prefWidth="57.0" text="Clear" />
+      <Button fx:id="exitBtn" layoutX="343.0" layoutY="359.0" mnemonicParsing="false" onAction="#cancel" prefHeight="27.0" prefWidth="71.0" text="Exit" />
+      <Button fx:id="deleteBtn" layoutX="435.0" layoutY="359.0" mnemonicParsing="false" onAction="#delete" text="Delete" />
+      <Button fx:id="updateBtn" layoutX="506.0" layoutY="359.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <ComboBox fx:id="titlesBox" layoutX="172.0" layoutY="72.0" onAction="#fillFields" prefHeight="27.0" prefWidth="278.0" />
+      <Label layoutX="80.0" layoutY="319.0" text="Find Author" />
+      <ComboBox fx:id="authorBox" layoutX="172.0" layoutY="314.0" prefHeight="27.0" prefWidth="278.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iPublisher.AddTitleController">
+   <children>
+      <Label layoutX="212.0" layoutY="24.0" text="Add New Title">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="112.0" layoutY="83.0" text="Name" />
+      <Label layoutX="114.0" layoutY="123.0" text="ISBN" />
+      <Label layoutX="86.0" layoutY="163.0" text="Edition No" />
+      <Label layoutX="56.0" layoutY="203.0" text="Publication Date" />
+      <Label layoutX="57.0" layoutY="245.0" text="Publication QTY" />
+      <Label layoutX="108.0" layoutY="284.0" text="Author" />
+      <TextField fx:id="nameTF" layoutX="172.0" layoutY="78.0" prefHeight="27.0" prefWidth="278.0" />
+      <TextField fx:id="ISBNTF" layoutX="172.0" layoutY="118.0" prefHeight="27.0" prefWidth="278.0" />
+      <TextField fx:id="editionNoTF" layoutX="172.0" layoutY="158.0" />
+      <TextField fx:id="publicationDateTF" layoutX="172.0" layoutY="198.0" />
+      <TextField fx:id="publicationQTYTF" layoutX="172.0" layoutY="240.0" />
+      <Button fx:id="cancelBtn" layoutX="381.0" layoutY="359.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Button fx:id="saveBtn" layoutX="465.0" layoutY="359.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <ComboBox fx:id="authorBox" layoutX="172.0" layoutY="279.0" prefHeight="27.0" prefWidth="278.0" />
+   </children>
+</AnchorPane>

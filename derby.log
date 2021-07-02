@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Mar 23 18:39:25 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0178-613e-1ba9-0000077141e8 
+on database directory /Users/joshrabovsky/Desktop/Second Year SE/Second Semester/SE 2203/Assignment3/iPublisher/iPublisherDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@a09ee92 
+Loaded from file:/Users/joshrabovsky/Desktop/Second%20Year%20SE/Second%20Semester/SE%202203/Assignment3/iPublisher/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.1+9-18
+user.dir=/Users/joshrabovsky/Desktop/Second Year SE/Second Semester/SE 2203/Assignment3/iPublisher
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.7
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
